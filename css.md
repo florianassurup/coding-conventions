@@ -43,16 +43,16 @@ Ces règles de nommage ont pour objectif d'assurer une écriture cohérente, lis
 
 ```html
 <!-- Exemple avec BEM : -->
-<div class="button button--primary">
-  <span class="button__icon"></span>
-  <span class="button__text">Submit</span>
+<div class="button button-primary">
+  <span class="button-icon"></span>
+  <span class="button-text">Submit</span>
 </div>
 ```
 
 - **Explication** :
   - `button` : Bloc principal (le composant).
-  - `button__icon` : Un élément du bloc (partie interne).
-  - `button--primary` : Un modificateur qui change l’état ou le style du bloc.
+  - `button-icon` : Un élément du bloc (partie interne).
+  - `button-primary` : Un modificateur qui change l’état ou le style du bloc.
 
 ### 2.2 Éviter les classes trop génériques
 - Les noms doivent refléter clairement leur but et leur rôle dans l’interface.
@@ -123,7 +123,7 @@ Ces règles de nommage ont pour objectif d'assurer une écriture cohérente, lis
 
 ```html
 <!-- Bon : -->
-<div class="alert alert--error"></div>
+<div class="alert alert-error"></div>
 
 <!-- Mauvais : -->
 <div class="red-box"></div>
