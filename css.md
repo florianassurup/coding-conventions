@@ -37,14 +37,14 @@ Ce guide a pour objectif de vous aider à écrire des styles CSS cohérents, lis
 ### 2.1 Adopter la méthodologie BEM (Block, Element, Modifier)
 - **Pourquoi ?** BEM structure vos styles de manière claire et prévisible, en séparant les composants, leurs éléments et leurs variations. Cette méthodologie est particulièrement utile pour les projets complexes où la modularité est essentielle.
   - **Block** : Un composant indépendant (ex. `.button`).
-  - **Element** : Une partie du composant (ex. `.button__icon`).
+  - **Element** : Une partie du composant (ex. `.button-icon`).
   - **Modifier** : Une variation ou un état du composant (ex. `.button--primary`).
 
 ```html
 <!-- Exemple avec BEM : -->
 <div class="button button--primary">
-  <span class="button__icon"></span>
-  <span class="button__text">Submit</span>
+  <span class="button-icon"></span>
+  <span class="button-text">Submit</span>
 </div>
 ```
 
